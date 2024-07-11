@@ -1,5 +1,5 @@
 <?php
-$config['base_url'] = 'https://localhost/petshop/shop';
+$config['base_url'] = 'https://smartpetshop.swmenteng.com/shop';
 $config['use_page_numbers'] = true;
 $config['page_query_string'] = true;
 $config['query_string_segment'] = 'page';

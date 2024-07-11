@@ -13,7 +13,7 @@ $currentController = $this->uri->segment(1);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8" />
@@ -27,7 +27,7 @@ $currentController = $this->uri->segment(1);
     <link rel="stylesheet" href="<?= base_url('assets/') ?>css/home.css" />
 </head>
 
-<body>
+<body class="position-relative" style="min-height: 100%; box-sizing: inherit; padding-bottom: 27rem">
     <!-- Element untuk menampilkan pesan alert -->
     <div class="flash-data" data-flashdata="<?= $this->session->flashdata('message'); ?>" data-flashdatastatus="<?= $this->session->flashdata('status'); ?>"></div>
 
